@@ -1,0 +1,286 @@
+
+body {
+  margin: 20px;
+ }
+#sun {
+  height: 80px;
+  width: 80px;
+    left: 40px;
+    top: 40px;
+  background-color: yellow;
+  position: relative;
+ border-radius: 50%;
+  z-index: 110;
+}
+
+#logotype {
+   position: relative;
+   top: -105px;
+   left: 400px;
+   font-size: 26px;
+   font-family: "Gothical";
+}
+@font-face {
+  font-family: "Gothical";
+  src: url(18642.ttf);
+ font-family: "Alternate Gothic";
+   src: url(altGot).ttf
+}
+#lg {
+  position: relative;
+  top: 19px;
+}
+#field {
+  position: absolute;
+    left: 95px;
+    top: 90px;
+    width: 801px;
+    height: 560px;
+    background-color: #40cfff;
+    z-index: 105;
+    cursor: url(pictures/orc.png), pointer;
+    overflow: hidden;
+}
+#land {
+ position: absolute;
+bottom: 0;
+left: 0;
+width: 801px;
+height: 80px;
+background: green;
+}
+#castle{
+   position: absolute;
+   bottom: 50px;
+   left: 300px;
+   height: 500px;
+   width: 500px;
+
+}
+#knight, #knightOnLeft, #horse {
+ position: absolute;
+   bottom: 50px;
+   left: 0px;
+ transition: linear 1.0s;
+ height: 100px;
+ width: 100px;
+   }
+   #knightOnLeft {
+    transition: linear 0.7s;
+   }
+
+#infantry {
+ position: absolute;
+   bottom: 50px;
+   left: 20px;
+ transition: ease-in 1.6s;
+height: 100px;
+ width: 50px;
+}   
+#cloud {
+  position: relative;
+   top: 120px;
+   left: 40px;
+}
+#talk {
+position: absolute;
+left: 70px;
+top:224px;
+font-family: "Alternate Gothic";
+} 
+#controls {
+position: absolute;
+ top: 350px;
+left: 105px;
+}
+button {
+  cursor: url(pictures/orc.png), pointer;
+}
+.board {
+font-size: 50px;
+position: absolute;
+top: 34px;
+}
+.attempts {
+left: 350px;
+}
+.max {
+left: 400px;
+}
+.colon {
+left:380px;
+top: 29px;
+}
+#orcHead {
+   position: relative;
+    height:72px;
+  width:60px;
+   top:-24px;
+}
+
+#fearOrc {
+   position: absolute;
+    height:72px;
+  width:60px;
+   top:15px;
+   left:275px;
+}
+
+#notAproblem {
+position: absolute;
+    font-size:16px;
+    top:80px;
+   left:248px;
+    font-family: "Georgia";
+}
+
+
+
+#goblin1, #goblin2, #goblin3, #goblin4 {
+   position: relative;
+   height:70px;
+  width:50px;
+  top:-20px;
+}
+
+#princess {
+   position: relative;
+   height:70px;
+  width:50px;
+  top:-25px;
+}
+
+@keyframes blink {
+ from {
+  border-color: yellow;
+    }
+ 
+ to {
+  border-color: red;
+            }
+        }
+
+ .figure:hover {
+animation: blink .7s infinite;
+        }
+
+
+.figure {
+position:absolute;
+ text-align: center;
+ height: 47px;
+}
+.bord {
+  border: 2px solid yellow;
+}
+
+#figure1 {
+ top: 320px;
+left: 466px;
+width: 50px;
+}
+#figure2 {
+ top: 320px;
+left: 528px;
+width: 82px;
+text-align: center;
+ }
+#figure3 {
+ top: 320px;
+left: 622px;
+width: 75px;
+text-align: center;
+ }
+ #figure4 {
+ top: 385px;
+left: 466px;
+width: 50px;
+text-align: center;
+ }
+  #figure5 {
+ top: 385px;
+left: 528px;
+width: 82px;
+text-align: center;
+ }
+   #figure6 {
+ top: 385px;
+left: 622px;
+width: 75px;
+text-align: center;
+ }
+ 
+.visible {
+  visibility: visible;
+}
+
+.not-visible {
+  visibility: hidden;
+}
+
+#jesus {
+position:absolute;
+top: 150px;
+left: 200px;
+height:180px;
+width:200px;
+}
+#jesusCloud {
+position:absolute;
+top: 280px;
+left: 200px;
+height:100px;
+width:200px;
+}
+#salut {
+position:absolute;
+top: 315px;
+left: 235px;
+font-size:25px;
+color:blue;
+}
+#devil {
+position:absolute;
+top: -93px;
+left: -93px;
+height:100px;
+width:100px;
+z-index:666;
+transition: ease-out 1s;
+}
+
+.reforce {
+position:absolute;
+top: 425px;
+
+}
+.jesters {
+  height:80px;
+width:70px;
+transition: ease-out 0.8s;
+}
+.viking {
+   height:80px;
+width:40px;
+transition: ease-out 0.5s;
+}
+.jesterWarrior {
+  height:80px;
+width:70px;
+transition: ease-out 0.5s;
+}
+
+#orcsDefeat {
+  position: absolute;
+top: 100px;
+left: 250px;
+height:250px;
+width:150px;
+}
+#wordDefeat {
+ position:absolute;
+top: 315px;
+left: 215px;
+font-size:25px;
+color:red;
+}
